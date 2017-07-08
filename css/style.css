@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  color: white;
+  background-color: #A9A9A9;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 40px;
+}
+
+.navbar {
+  background-color: #A9A9A9;
+}
+
+.grey {
+  background-color: #A9A9A9 !IMPORTANT;
+}
+
+h5 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 25px;
+}
+
+p {
+  line-height: 2rem;
+  font-family: 'Lora', serif;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.getDevotional {
+  font-size: .9em;
+  font-family: 'Lora', serif;
+}
+
+.button-collapse {
+  color: #1a1a1a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: #1a1a1a;
+}
+  .parallax-container .section {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+#scripture{
+  color:white;
+  font-family: Amatic SC
+}
+
+footer.page-footer {
+  margin: 0;
+  padding-top: 150px;
+}
